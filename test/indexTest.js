@@ -35,7 +35,6 @@ describe('index.js', function () {
         expect(cats).to.have.ordered.members(["Milo", "Otis"]).and.to.not.include('Garfield');
       });
     });
-
     describe('destructivelyRemoveFirstCat()', function () {
       it('removes the first cat from the cats array', function () {
         destructivelyRemoveFirstCat();
